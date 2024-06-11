@@ -136,6 +136,7 @@ struct HnswElementData
 	uint8		deleted;
 	uint32		hash;
 	HnswNeighborsPtr neighbors;
+	Buffer		buffer;
 	BlockNumber blkno;
 	OffsetNumber offno;
 	OffsetNumber neighborOffno;
